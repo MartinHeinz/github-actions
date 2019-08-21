@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "Testing echo $TEST_VAR ..."
+sh -c "echo Testing echo $TEST_VAR ..."

@@ -11,5 +11,4 @@ jobs:
     - uses: ./hello-world
       with:
         TEST_VAR: "var value"
-      id: hello
-    - run: echo "The time was ${{ steps.hello.outputs.time }}"
+
